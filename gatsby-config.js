@@ -31,8 +31,8 @@ module.exports = {
       resolve: "gatsby-source-wordpress",
       options: {
         minimizeDeprecationNotice: true,
-        baseUrl: "gatsby-wordpress-test.local",
-        protocol: "http",
+        baseUrl: "gatsby-wordpress-test.previews.mariaadelaide.com",
+        protocol: "https",
         hostingWPCOM: false,
         useACF: true,
         acfOptionPageIds: [],
